@@ -1,4 +1,4 @@
-package com.shubhajit.petclinic.entities;
+package com.shubhajit.petclinicdata.entities;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package com.shubhajit.petclinic.entities;
+package com.shubhajit.petclinicdata.entities;
 
 public class Person {
     private String firstName;

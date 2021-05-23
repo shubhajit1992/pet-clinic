@@ -1,13 +1,13 @@
-package com.shubhajit.petclinic;
+package com.shubhajit.petclinicdata;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PetClinicApplication {
+public class PetClinicDataApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PetClinicApplication.class, args);
+		SpringApplication.run(PetClinicDataApplication.class, args);
 	}
 
 }
