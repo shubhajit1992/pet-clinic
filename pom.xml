@@ -10,7 +10,7 @@
 
     <groupId>com.shubhajit</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>pet-clinic</name>
     <description>Pet Clinic Project</description>
 
@@ -44,6 +44,10 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <checkModificationExcludes>
+                        <checkModificationExclude>pom.xml</checkModificationExclude>
+                    </checkModificationExcludes>
                 </configuration>
             </plugin>
         </plugins>
@@ -51,7 +55,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/shubhajit1992/pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>pet-clinic-0.0.2</tag>
+    </scm>
 
 </project>
