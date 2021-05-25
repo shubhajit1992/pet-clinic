@@ -1,4 +1,4 @@
-package com.shubhajit.petclinicdata.entities;
+package com.shubhajit.petclinicweb.entities;
 
 public class Person extends BaseEntity {
     private String firstName;

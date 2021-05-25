@@ -1,7 +1,7 @@
-package com.shubhajit.petclinicdata.services.map;
+package com.shubhajit.petclinicweb.services.map;
 
-import com.shubhajit.petclinicdata.entities.Pet;
-import com.shubhajit.petclinicdata.services.PetService;
+import com.shubhajit.petclinicweb.entities.Pet;
+import com.shubhajit.petclinicweb.services.PetService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
