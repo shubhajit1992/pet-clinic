@@ -1,4 +1,4 @@
-package com.shubhajit.petclinicdata.services;
+package com.shubhajit.petclinicweb.services;
 
 import java.util.Set;
 

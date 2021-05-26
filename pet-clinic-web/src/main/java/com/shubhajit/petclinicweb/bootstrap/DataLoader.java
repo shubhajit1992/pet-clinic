@@ -1,9 +1,11 @@
-package bootstrap;
+package com.shubhajit.petclinicweb.bootstrap;
 
 import com.shubhajit.petclinicweb.entities.Owner;
 import com.shubhajit.petclinicweb.entities.Vet;
 import com.shubhajit.petclinicweb.services.OwnerService;
 import com.shubhajit.petclinicweb.services.VetService;
+import com.shubhajit.petclinicweb.services.map.OwnerServiceMap;
+import com.shubhajit.petclinicweb.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -12,9 +14,9 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService) {
-        this.ownerService = ownerService;
-        this.vetService = vetService;
+    public DataLoader() {
+        ownerService = new OwnerServiceMap();
+        vetService = new VetServiceMap();
     }
 
     @Override
